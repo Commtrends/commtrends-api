@@ -1,13 +1,17 @@
-from flask import Flask, jsonify
+import os
 
-from shema import schema
+from flask import Flask
+from flask_cors import CORS
+
+from graphql_api import set_routes
 
 app = Flask(__name__)
-app.debug = True
 
+if os.environ.get('APP_MODE') == 'local':
+    app.debug = True
+    CORS(app)
 
-@app.route('/')
-def index():
-    result = schema.execute('{ hello (argument: "graph")}')
+set_routes(app)
 
-    return jsonify(result.data)
+if __name__ == '__main__':
+    app.run()
