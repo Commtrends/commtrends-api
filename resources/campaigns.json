@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "name": "Campaign 1",
+    "campaign_id": 1,
+    "resources":[
+      {
+        "id": 1,
+        "resourceType": "Page",
+        "resourceName": "XYZ",
+        "resourceComparator": "",
+        "resourceComparatorArgument" : "",
+        "successEvent": "",
+        "successComparator": "",
+        "successComparatorValue": ""
+      },
+      {
+        "id": 2,
+        "resourceType": "Page",
+        "resourceName": "1234",
+        "resourceComparator": "",
+        "resourceComparatorArgument" : "",
+        "successEvent": "Page is loaded",
+        "successComparator": "",
+        "successComparatorValue": ""
+      },
+      {
+        "id": 3,
+        "resourceType": "Page",
+        "resourceName": "A page that needs read",
+        "resourceComparator": "",
+        "resourceComparatorArgument" : "",
+        "successEvent": "Time on page",
+        "successComparator": "greater than",
+        "successComparatorValue": 60
+      },
+      {
+        "id": 4,
+        "resourceType": "Email",
+        "resourceName": "something about a product",
+        "resourceComparator": "",
+        "resourceComparatorArgument" : "",
+        "successEvent": "",
+        "successComparator": "",
+        "successComparatorValue": ""
+      },
+      {
+        "id": 5,
+        "resourceType": "Meta",
+        "resourceName": "myPageTag",
+        "resourceComparator": "contains",
+        "resourceComparatorArgument" : "news-article",
+        "successEvent": "Time on page",
+        "successComparator": "greater than",
+        "successComparatorValue": 60
+      },
+      {
+        "id": 6,
+        "resourceType": "Meta",
+        "resourceName": "email-type",
+        "resourceComparator": "contains",
+        "resourceComparatorArgument" : "news-round-up",
+        "successEvent": "",
+        "successComparator": "",
+        "successComparatorValue": ""
+      }
+    ]
+  }
+]
