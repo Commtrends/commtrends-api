@@ -1,8 +1,6 @@
-import os
-
 from flask import jsonify, request
-from flask.json import load
 
+from graphql_api.campaign import get_random_campaign
 from shema import schema
 
 
@@ -16,9 +14,7 @@ def set_routes(app):
         return jsonify(result.data)
 
     def fake_query():
-        current_path = os.path.abspath(os.path.dirname(__file__))
-        path = os.path.join(current_path, "../resources/campaigns.json")
-        with open(path) as f:
-            return jsonify(load(f))
+        data = get_random_campaign()
+        return jsonify(data)
 
     app.add_url_rule('/', 'query', fake_query, methods=['POST', 'OPTIONS'])

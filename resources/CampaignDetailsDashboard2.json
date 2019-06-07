@@ -1,0 +1,220 @@
+{
+  "data": {
+    "campaign": {
+      "__typename": "a",
+      "campaign": {
+        "__typename": "campaign",
+        "id": 1,
+        "name": "My Campaign",
+        "headlineNumbers": [
+          {
+            "__typename": "a",
+            "successEvents": "553",
+            "totalPeople": "2,100",
+            "returningPeople": "52",
+            "avgTime": "1m 15sec",
+            "totalResourceViews": "4,600"
+          }
+        ],
+        "resourcesWithSuccessEvents": [
+          {
+            "__typename": "a",
+            "id": 1,
+            "resourceName": "Five Questions About Honour",
+            "resourceType": "Page",
+            "people": "2,400",
+            "views": "2,800",
+            "eventType": "Page Load",
+            "metric": "240"
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceName": "Here's What Industry Insiders Say About Honour",
+            "resourceType": "Page",
+            "people": "2,100",
+            "views": "2,200",
+            "eventType": "Avg. Time on Page",
+            "metric": "10"
+          }
+        ],
+        "successResourcesTopInbound": [
+          {
+            "__typename": "a",
+            "id": 1,
+            "resourceName": "Intranet Home Page",
+            "resourceType": "Page",
+            "people": "5,200",
+            "views": "4,800"
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceName": "Daily Round Up",
+            "resourceType": "Email",
+            "people": "2,400",
+            "views": "2,800"
+          },
+          {
+            "__typename": "a",
+            "id": 3,
+            "resourceName": "News Landing page",
+            "resourceType": "Page",
+            "people": "800",
+            "views": "2,000"
+          }
+        ],
+        "topCampaignResources": [
+          {
+            "__typename": "a",
+            "id": 1,
+            "resourceId": 46,
+            "resourceName": "Five Questions About Honour",
+            "resourceType": "Page",
+            "people": "2,402",
+            "views": "2,800"
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "It's All About (The) Honour",
+            "resourceType": "Page",
+            "people": "2,400",
+            "views": "4,096"
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "Here's What Industry Insiders Say About Honour",
+            "resourceType": "Page",
+            "people": "3,520",
+            "views": "4,096"
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "The Ultimate Guide To Honour",
+            "resourceType": "Page",
+            "people": "3,520",
+            "views": "4,096"
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "What I Wish Everyone Knew About Honour",
+            "resourceType": "Page",
+            "people": "3,520",
+            "views": "4,096"
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "James launches Honour",
+            "resourceType": "Page",
+            "people": "3,520",
+            "views": "4,096"
+          }
+        ],
+        "topCampaignInbounds": [
+          {
+            "__typename": "a",
+            "id": 1,
+            "resourceId": 46,
+            "resourceName": "News article 2",
+            "resourceType": "Page",
+            "people": 3333,
+            "views": 3500,
+            "event": "Page Load",
+            "metric": 300
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "Article No.2",
+            "resourceType": "Page",
+            "people": 4400,
+            "views": 5100,
+            "event": "Avg. Time on Page",
+            "metric": 240
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "Article No.3",
+            "resourceType": "Page",
+            "people": 4400,
+            "views": 5100,
+            "event": "Avg. Time on Page",
+            "metric": 240
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "Article No.4",
+            "resourceType": "Page",
+            "people": 4400,
+            "views": 5100,
+            "event": "Avg. Time on Page",
+            "metric": 240
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "Article No.4",
+            "resourceType": "Page",
+            "people": 4400,
+            "views": 5100,
+            "event": "Avg. Time on Page",
+            "metric": 240
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "Article No.5",
+            "resourceType": "Page",
+            "people": 4400,
+            "views": 5100,
+            "event": "Avg. Time on Page",
+            "metric": 240
+          }
+        ],
+        "successEventsByDay": [
+          {
+            "__typename": "a",
+            "id": 1,
+            "date": "Apr 21",
+            "events": 21
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "Apr 22",
+            "events": 45
+          },
+          {
+            "__typename": "a",
+            "id": 3,
+            "date": "Apr 23",
+            "events": 45
+          },
+          {
+            "__typename": "a",
+            "id": 3,
+            "date": "Apr 23",
+            "events": 45
+          }
+        ]
+      }
+    }
+  }
+}
