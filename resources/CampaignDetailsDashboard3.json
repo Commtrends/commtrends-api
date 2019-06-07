@@ -1,0 +1,328 @@
+{
+  "data": {
+    "campaign": {
+      "__typename": "a",
+      "campaign": {
+        "__typename": "campaign",
+        "id": 1,
+        "name": "My Campaign",
+        "headlineNumbers": [
+          {
+            "__typename": "a",
+            "successEvents": "152",
+            "totalPeople": "600",
+            "returningPeople": "60",
+            "avgTime": "1m 25sec",
+            "totalResourceViews": "1,200"
+          }
+        ],
+        "resourcesWithSuccessEvents": [
+          {
+            "__typename": "a",
+            "id": 1,
+            "resourceName": "Five Questions About Honour",
+            "resourceType": "Page",
+            "people": "400",
+            "views": "563",
+            "eventType": "Page Load",
+            "metric": "60"
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceName": "Here's What Industry Insiders Say About Honour",
+            "resourceType": "Page",
+            "people": "250",
+            "views": "332",
+            "eventType": "Avg. Time on Page",
+            "metric": "30"
+          }
+        ],
+        "successResourcesTopInbound": [
+          {
+            "__typename": "a",
+            "id": 1,
+            "resourceName": "Intranet Home Page",
+            "resourceType": "Page",
+            "people": "1,300",
+            "views": "1200"
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceName": "Daily Round Up",
+            "resourceType": "Email",
+            "people": "600",
+            "views": "700"
+          },
+          {
+            "__typename": "a",
+            "id": 3,
+            "resourceName": "News Landing page",
+            "resourceType": "Page",
+            "people": "200",
+            "views": "500"
+          }
+        ],
+        "topCampaignResources": [
+          {
+            "__typename": "a",
+            "id": 1,
+            "resourceId": 46,
+            "resourceName": "Five Questions About Honour",
+            "resourceType": "Page",
+            "people": "600",
+            "views": "700"
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "It's All About (The) Honour",
+            "resourceType": "Page",
+            "people": "880",
+            "views": "1,020"
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "Here's What Industry Insiders Say About Honour",
+            "resourceType": "Page",
+            "people": "880",
+            "views": "1,020"
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "The Ultimate Guide To Honour",
+            "resourceType": "Page",
+            "people": "880",
+            "views": "1,020"
+          }
+        ],
+        "topCampaignInbounds": [
+          {
+            "__typename": "a",
+            "id": 1,
+            "resourceId": 46,
+            "resourceName": "News article 1",
+            "resourceType": "Page",
+            "people": 6666,
+            "views": 3500,
+            "event": "Page Load",
+            "metric": 300
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "Article No.2",
+            "resourceType": "Page",
+            "people": 4400,
+            "views": 5100,
+            "event": "Avg. Time on Page",
+            "metric": 240
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "Article No.3",
+            "resourceType": "Page",
+            "people": 4400,
+            "views": 5100,
+            "event": "Avg. Time on Page",
+            "metric": 240
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "Article No.4",
+            "resourceType": "Page",
+            "people": 4400,
+            "views": 5100,
+            "event": "Avg. Time on Page",
+            "metric": 240
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "Article No.4",
+            "resourceType": "Page",
+            "people": 4400,
+            "views": 5100,
+            "event": "Avg. Time on Page",
+            "metric": 240
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "resourceId": 32,
+            "resourceName": "Article No.5",
+            "resourceType": "Page",
+            "people": 4400,
+            "views": 5100,
+            "event": "Avg. Time on Page",
+            "metric": 240
+          }
+        ],
+        "successEventsByDay": [
+          {
+            "__typename": "a",
+            "id": 1,
+            "date": "00:00",
+            "events": 0
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "01:00",
+            "events": 1
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "02:00",
+            "events": 2
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "03:00",
+            "events": 1
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "04:00",
+            "events": 0
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "05:00",
+            "events": 3
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "06:00",
+            "events": 8
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "07:00",
+            "events": 28
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "08:00",
+            "events": 50
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "09:00",
+            "events": 100
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "10:00",
+            "events": 90
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "11:00",
+            "events": 100
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "12:00",
+            "events": 120
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "13:00",
+            "events": 102
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "14:00",
+            "events": 76
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "15:00",
+            "events": 54
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "01:00",
+            "events": 45
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "16:00",
+            "events": 34
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "17:00",
+            "events": 55
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "18:00",
+            "events": 13
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "19:00",
+            "events": 3
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "20:00",
+            "events": 2
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "21:00",
+            "events": 0
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "22:00",
+            "events": 1
+          },
+          {
+            "__typename": "a",
+            "id": 2,
+            "date": "23:00",
+            "events": 0
+          }
+        ]
+      }
+    }
+  }
+}
