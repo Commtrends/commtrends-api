@@ -9,7 +9,8 @@ app = Flask(__name__)
 
 if os.environ.get('APP_MODE') == 'local':
     app.debug = True
-    CORS(app)
+
+CORS(app)
 
 set_routes(app)
 
