@@ -1,4 +1,4 @@
-# COMMTREND API
+# COMMTRENDS API
 
 ## Run locally
 To run locally the application
