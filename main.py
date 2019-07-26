@@ -6,20 +6,26 @@ from flask_cors import CORS
 from database import init_db
 from graphql_api import set_routes
 
-app = Flask(__name__)
-
-if os.environ.get('APP_MODE') == 'local':
-    app.debug = True
-
-CORS(app)
-
-set_routes(app)
+__app__ = None
 
 
-def run_app(*args, **qwargs):
-    init_db()
-    app.run(port=8001)
+def get_app(*args, **kwarg) -> Flask:
+
+    global __app__
+
+    if not __app__:
+        __app__ = Flask(__name__, *args, **kwarg)
+
+        if os.environ.get('APP_MODE') == 'local':
+            __app__.debug = True
+
+        CORS(__app__)
+
+        set_routes(__app__)
+
+    return __app__
 
 
 if __name__ == '__main__':
-    run_app()
+    init_db()
+    get_app().run()
