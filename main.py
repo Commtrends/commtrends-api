@@ -16,9 +16,9 @@ CORS(app)
 set_routes(app)
 
 
-def run_app():
+def run_app(*args, **qwargs):
     init_db()
-    app.run()
+    app.run(port=8001)
 
 
 if __name__ == '__main__':
