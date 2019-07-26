@@ -15,6 +15,11 @@ CORS(app)
 
 set_routes(app)
 
-if __name__ == '__main__':
+
+def run_app():
     init_db()
     app.run()
+
+
+if __name__ == '__main__':
+    run_app()
