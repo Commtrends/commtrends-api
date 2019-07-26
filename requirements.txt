@@ -1,4 +1,8 @@
 flask==1.0.2
 flask-cors==3.0.7
-graphene==2.0
 gunicorn==19.9.0
+
+
+Flask-GraphQL==2.0.0
+graphene-mongo
+mongomock==3.14.0
